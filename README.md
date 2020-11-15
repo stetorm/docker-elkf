@@ -1,0 +1,1 @@
+A docker-compose file to quickly setup a working instance of Elastichsearch, Logstash, Kibana and Filebeat.
