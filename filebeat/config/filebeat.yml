@@ -2,7 +2,9 @@ filebeat.inputs:
 - type: log
   enabled: true
   paths:
-    - /usr/share/log/*.log
+    - /usr/share/log/exacto-iot-api*.log
+  fields:
+    app: data-api    
 
 output.logstash:
   # The Logstash hosts
